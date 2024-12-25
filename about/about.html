@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фан-сайт!!!!</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+    <div id="body-container">
+        <img id="logo" src="../logo.png" />
+        <div class="menu-content">
+            <div class="menu">
+                <div class="menu-element"><a href="../index.html">Главная</a></div>
+                <div class="menu-element"><a href="../about/about.html">Святилище</a></div>
+                <div class="menu-element"><a href="../gallery/gallery.html">Галерея</a></div>
+                <div class="menu-element"><a href="../author/author.html">Об авторе</a></div>
+            </div>
+            <div class="content">
+                <h1 align="center">Святилище</h1>
+                <img class="shrine" src="shrine.png" onclick="open_popup()"/>
+                <p>Нажмите на святилище, чтобы посмотреть пожертвования</p>
+                <p>Свои пожертвования можете отправить админу на почту</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="shrine-content" style="visibility:hidden;">
+        <img id="cross" src="cross.png" onclick="close_popup()"/>
+        <h3>Список пожертвований в храм</h3>
+        <div class="donation">
+            <div class="donation-element">
+                <img class="donimg" src="lab.png" />
+                <p>Лабораторная работа</p>
+            </div>
+            <div class="donation">
+                <div class="donation-element">
+                    <img class="donimg" src="pir.png" />
+                    <p>Пирожок</p>
+                </div>
+            </div>
+            <div class="donation">
+                <div class="donation-element">
+                    <img class="donimg" src="flat.png" />
+                    <p>3-х комнатная квартира в центре Москвы</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

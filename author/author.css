@@ -1,0 +1,11 @@
+.author {
+    display: block;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border: 20px solid transparent;
+    border-image: url('../border.png') 33% round;
+    border-image-outset: 0.5;
+}
